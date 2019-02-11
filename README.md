@@ -11,10 +11,21 @@ The repository includes:
 
 * Youtube-data.json - Key is url of the video.
 
+### Compile & Run
+
+```bash
+$ cd OpenCalaisClient
+$ mvn package
+$ java -jar target/HttpClientCalaisPost-1.0-SNAPSHOT.jar
+```
+
+### Clean
+
+```bash
+$ cd OpenCalaisClient
+$ mvn clean
+```
 
 ### Status
 
-This is final project of CSCI-576 Multimedia System Design, 2018 fall
-
 Version 1.0
-
